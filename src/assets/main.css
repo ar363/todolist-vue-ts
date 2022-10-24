@@ -1,6 +1,5 @@
-@import "./base.css";
-
 #app {
+  font-family: "Roboto";
   max-width: 480px;
   margin: 0 auto;
   padding: 1rem;
