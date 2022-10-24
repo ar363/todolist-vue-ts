@@ -20,6 +20,16 @@ function addTodo() {
 <template>
   <main>
     <h1>Todos</h1>
+    <div class="">
+      <progress
+        :max="todoStore.todos.length"
+        :value="todoStore.completedTodos.length"
+      ></progress>
+      <p>
+        <b>{{ todoStore.completedTodos.length }}</b> out of
+        <b>{{ todoStore.todos.length }}</b> completed
+      </p>
+    </div>
     <ul class="todos" v-for="todo in todoStore.todos">
       <li class="todo">
         <input
