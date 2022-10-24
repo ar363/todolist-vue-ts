@@ -1,4 +1,4 @@
-# todo - Overengineered todo list with Vue3, Vite and Typescript
+# todo - Overengineered todo list with Vue3, Vite, Pinia and Typescript
 
 ![](demo.gif)
 
@@ -6,7 +6,8 @@
 
 - CI/CD Pipeline configured
 - End to End testing with Cypress
-- Works fully offline with localStorage
+- Fully type safe stores with Pinia
+- Works offline with localStorage
 - Looks nice
 
 ## Recommended IDE Setup
