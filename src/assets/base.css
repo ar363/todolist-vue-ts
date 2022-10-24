@@ -776,30 +776,12 @@ template {
  */
 
 html {
-  font-family:
-    system-ui,
-    /* macOS 10.11-10.12 */
-    -apple-system,
-    /* Windows 6+ */
-    "Segoe UI",
-    /* Android 4+ */
-    "Roboto",
-    /* Ubuntu 10.10+ */
-    "Ubuntu",
-    /* Gnome 3+ */
-    "Cantarell",
-    /* KDE Plasma 5+ */
-    "Noto Sans",
-    /* fallback */
-    sans-serif,
-    /* macOS emoji */
-    "Apple Color Emoji",
-    /* Windows emoji */
-    "Segoe UI Emoji",
-    /* Windows emoji */
-    "Segoe UI Symbol",
-    /* Linux emoji */
-    "Noto Color Emoji";
+  font-family: system-ui, /* macOS 10.11-10.12 */ -apple-system,
+    /* Windows 6+ */ "Segoe UI", /* Android 4+ */ "Roboto",
+    /* Ubuntu 10.10+ */ "Ubuntu", /* Gnome 3+ */ "Cantarell",
+    /* KDE Plasma 5+ */ "Noto Sans", /* fallback */ sans-serif,
+    /* macOS emoji */ "Apple Color Emoji", /* Windows emoji */ "Segoe UI Emoji",
+    /* Windows emoji */ "Segoe UI Symbol", /* Linux emoji */ "Noto Color Emoji";
 }
 
 /**
@@ -810,32 +792,13 @@ code,
 kbd,
 samp,
 pre {
-  font-family:
-    ui-monospace,
-    /* macOS 10.10+ */
-    "Menlo",
-    /* Windows 6+ */
-    "Consolas",
-    /* Android 4+ */
-    "Roboto Mono",
-    /* Ubuntu 10.10+ */
-    "Ubuntu Monospace",
-    /* KDE Plasma 5+ */
-    "Noto Mono",
-    /* KDE Plasma 4+ */
-    "Oxygen Mono",
-    /* Linux/OpenOffice fallback */
-    "Liberation Mono",
-    /* fallback */
-    monospace,
-    /* macOS emoji */
-    "Apple Color Emoji",
-    /* Windows emoji */
-    "Segoe UI Emoji",
-    /* Windows emoji */
-    "Segoe UI Symbol",
-    /* Linux emoji */
-    "Noto Color Emoji";
+  font-family: ui-monospace, /* macOS 10.10+ */ "Menlo",
+    /* Windows 6+ */ "Consolas", /* Android 4+ */ "Roboto Mono",
+    /* Ubuntu 10.10+ */ "Ubuntu Monospace", /* KDE Plasma 5+ */ "Noto Mono",
+    /* KDE Plasma 4+ */ "Oxygen Mono",
+    /* Linux/OpenOffice fallback */ "Liberation Mono", /* fallback */ monospace,
+    /* macOS emoji */ "Apple Color Emoji", /* Windows emoji */ "Segoe UI Emoji",
+    /* Windows emoji */ "Segoe UI Symbol", /* Linux emoji */ "Noto Color Emoji";
 }
 
 /**
@@ -864,7 +827,8 @@ pre {
 
 :where(select) {
   appearance: none;
-  background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='4'%3E%3Cpath d='M4 0h6L7 4'/%3E%3C/svg%3E") no-repeat right center / 1em;
+  background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='4'%3E%3Cpath d='M4 0h6L7 4'/%3E%3C/svg%3E")
+    no-repeat right center / 1em;
   border-radius: 0;
   padding-right: 1em;
 }

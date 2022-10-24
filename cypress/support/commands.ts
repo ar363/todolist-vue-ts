@@ -36,4 +36,6 @@
 //   }
 // }
 
-export {}
+import "cypress-localstorage-commands";
+
+export {};

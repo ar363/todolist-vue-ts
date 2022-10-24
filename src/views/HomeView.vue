@@ -35,7 +35,7 @@ function addTodo() {
         <b>{{ todoStore.todos.length }}</b> completed
       </p>
     </div>
-    <ul class="todos" v-for="todo in todoStore.todos">
+    <ul class="todos" v-for="todo in todoStore.todos" v-bind:key="todo.id">
       <li class="todo">
         <input
           type="checkbox"
