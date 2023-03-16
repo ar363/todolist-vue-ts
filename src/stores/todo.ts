@@ -61,6 +61,7 @@ export const useTodoStore = defineStore("counter", () => {
 
   function clearCompletedTodos() {
     todos.value = todos.value.filter((todo) => todo.isCompleted === false);
+    updateLocalStorage();
   }
 
   return {
